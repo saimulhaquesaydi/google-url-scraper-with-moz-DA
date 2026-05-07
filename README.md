@@ -278,7 +278,6 @@ Copyright (c) 2026 SAYDI
 
 - **Issues**: [GitHub Issues](https://github.com/saimulhaquesaydi/google-url-scraper-with-moz-DA/issues)
 - **Email**: saimulhaquesaydi@gmail.com
-- **Documentation**: [Release Notes](RELEASE_NOTES.md)
 
 ---
 
