@@ -41,14 +41,14 @@
 - Completion alerts with URL count
 
 ### 📥 Export Options
-- **CSV**: `Url,Google index` format
+- **CSV**: `URL, Google index` format
 - **Copy**: Tab-separated clipboard format
 - Automatic filename with keyword and DA filter
 
 ### 🪟 Background Scraping
-- Scrape in separate window
+- Scrape in a separate window
 - Work in other tabs while scraping
-- Mozbar works in background
+- Mozbar works in the background
 
 ---
 
@@ -62,9 +62,9 @@
    ```
 
 2. **Load in Chrome**
-   - Open `chrome://extensions/`
-   - Enable "Developer mode"
-   - Click "Load unpacked"
+   - Open `chrome://extensions/.`
+   - Enable "Developer mode."
+   - Click "Load unpacked."
    - Select the extension folder
 
 3. **Install Mozbar** (Required for DA extraction)
@@ -87,7 +87,7 @@
    - Work in other tabs while scraping
 
 4. **Handle CAPTCHA** (if detected)
-   - Solve CAPTCHA in scraping window
+   - Solve CAPTCHA in the scraping window
    - Click "Resume Scraping"
 
 5. **Export Data**
@@ -118,7 +118,7 @@
 Set minimum DA threshold before export:
 
 ```
-Example: Enter "30" in DA filter
+Example: Enter "30" in the DA filter
 Result: Only URLs with DA ≥ 30 exported
 Filename: keyword_DA30+.csv
 ```
@@ -127,7 +127,7 @@ Filename: keyword_DA30+.csv
 
 **With DA Mode:**
 ```csv
-Url,Google index
+Url, Google index
 example.com,45
 website.org,52
 ```
@@ -192,28 +192,28 @@ website.org
 **Problem**: "DA not found" error
 **Solution**:
 - Check Mozbar is installed and enabled
-- Verify you're logged in to Moz account
-- Refresh Google search page
+- Verify you're logged in to your Moz account
+- Refresh the Google search page
 - Wait for Mozbar to load completely
 
 ### CAPTCHA Detected
 **Problem**: Scraping paused with CAPTCHA
 **Solution**:
-- Solve CAPTCHA in scraping window
-- Click "Resume Scraping" button
+- Solve CAPTCHA in the scraping window
+- Click the "Resume Scraping" button
 - Session data is preserved
 
 ### Extension Not Loading
 **Problem**: Extension doesn't appear
 **Solution**:
 - Check Developer mode is enabled
-- Reload extension in `chrome://extensions/`
-- Check for errors in extension console
+- Reload extension in `chrome://extensions/.
+- Check for errors in the extension console
 
 ### URLs Not Saving
 **Problem**: URL count not increasing
 **Solution**:
-- Check you're on Google search page
+- Check you're on the Google search page
 - Verify search results are visible
 - Check browser console for errors
 
@@ -245,7 +245,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ### Development Setup
 
-1. Clone repository
+1. Clone the repository
 2. Make changes
 3. Test in Chrome
 4. Submit PR
@@ -277,7 +277,7 @@ Copyright (c) 2026 SAYDI
 ## 📞 Support
 
 - **Issues**: [GitHub Issues](https://github.com/saimulhaquesaydi/google-url-scraper-with-moz-DA/issues)
-- **Email**: support@saydi.com
+- **Email**: saimulhaquesaydi@gmail.com
 - **Documentation**: [Release Notes](RELEASE_NOTES.md)
 
 ---
@@ -291,12 +291,6 @@ Copyright (c) 2026 SAYDI
 - [ ] Advanced filtering options
 - [ ] Scheduled scraping
 - [ ] API integration
-
----
-
-## 📜 Changelog
-
-See [CHANGELOG.md](CHANGELOG.md) for detailed version history.
 
 ---
 
